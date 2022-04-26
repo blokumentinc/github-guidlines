@@ -69,6 +69,7 @@ When the source code in the `develop` branch is stable and has been deployed, al
 
 Supporting branches are used to aid parallel development between team members, ease tracking of features, and to assist in quickly fixing live production problems. Unlike the main branches, these branches always have a limited life time, since they will be removed eventually.
 
+* For all supprting branch names we must use camel casing.
 The different types of branches we may use are:
 
 * Feature branches
@@ -86,7 +87,7 @@ During the lifespan of the feature development, the lead should watch the `devel
 
 * Must branch from: `develop`
 * Must merge back into: `develop`
-* Branch naming convention: `feature-name`
+* Branch naming convention: `feature-Name`
 
 #### Working with a feature branch
 
